@@ -50,6 +50,10 @@ main.blog div.post section.header {
     height: 340px;
 }
 
+button.submit {
+    background-color: #3366FF;
+}
+
 footer {
     text-align: center;
 }
