@@ -9,6 +9,18 @@ body {
     line-height: 24px;
 }
 
+.font-size-14 {
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
 header, main, footer
 header article, main article, footer article {
     min-width: 320px;
@@ -17,6 +29,7 @@ header article, main article, footer article {
 header article {
     margin: 0 auto;
     padding: 1vh 0;
+    color: #4B4B4B;
 }
 
 header article figure {
@@ -46,12 +59,61 @@ main article figure img {
     max-width: 100%;
 }
 
-main.blog div.post section.header {
-    height: 340px;
+main article h1 {
+    text-align: center;
+}
+
+input, button {
+    border-radius: 8px;
+    height: 45px;
+    margin: 5px 0;
+}
+
+input {
+    padding: 0 20px;
+    border: solid 1px #C0C0C0;
 }
 
 button.submit {
     background-color: #3366FF;
+    border: solid 1px #3366FF;
+    color: #fff;
+    padding: 0 40px 0 20px;
+    vertical-align: center;
+}
+
+button.submit img {
+    margin-bottom: -2px;
+}
+
+button.submit:after {
+    background-color: #3366FF;
+    border: solid 1px #3366FF;
+    color: #fff;
+    padding: 0 30px;
+}
+
+a {
+    color: #3366FF;
+    text-decoration: none;
+}
+
+main.blog div.post {
+    border-radius: 8px;
+    border: solid 1px #C0C0C0;
+    margin: 8px;
+    overflow: hidden;
+}
+
+main.blog div.post section.header {
+    height: 159px;
+}
+main.blog div.post section.body {
+    padding: 5px;
+}
+
+main.blog div.post h2, main.blog div.post section.description, main.blog div.post section.action {
+    margin: 15px;
 }
 
 footer {
@@ -82,11 +144,24 @@ footer article {
     header article, main article, footer article {
         max-width: 320px;
     }
+    main.blog div.post {
+        margin: 8px 0;
+    }
+    input, button {
+        display: block;
+        width: 100%;
+    }
 }
 
 @media (min-width: 480px) {
     header article, main article, footer article {
         max-width: 460px;
+    }
+    main.blog div.post {
+        margin: 8px;
+    }
+    input, button {
+        display: inline;
     }
 }
 
