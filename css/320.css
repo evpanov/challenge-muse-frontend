@@ -1,12 +1,12 @@
-/*@media (min-width: 320px) {*/
-/*    header article, main article, footer article {*/
-/*        max-width: 320px;*/
-/*    }*/
-/*    main.blog div.post {*/
-/*        margin: 8px 0;*/
-/*    }*/
-/*    input, button {*/
-/*        display: block;*/
-/*        width: 100%;*/
-/*    }*/
-/*}*/
+@media (min-width: 320px) {
+    /*header article, main article, footer article {*/
+    /*    max-width: 320px;*/
+    /*}*/
+    /*main.blog div.post {*/
+    /*    margin: 8px 0;*/
+    /*}*/
+    /*input, button {*/
+    /*    display: block;*/
+    /*    width: 100%;*/
+    /*}*/
+}

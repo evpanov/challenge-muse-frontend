@@ -1,3 +1,4 @@
+@import url(colors.css);
 @import url(320.css);
 @import url(480.css);
 @import url(768.css);
@@ -25,11 +26,24 @@ h1 {
     line-height: 28.6px;
     color: #252323;
     text-align: center;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: #252323;
+    margin: 0 0 10px 0;
 }
 
 a {
     color: #3366FF;
     text-decoration: none;
+}
+
+p {
+    margin: 20px 0;
 }
 
 header,
@@ -80,7 +94,7 @@ main article figure img {
 input, button {
     border-radius: 8px;
     height: 45px;
-    margin: 5px 0;
+    margin: 5px 0 0 0;
 }
 
 input {
@@ -101,36 +115,15 @@ button.submit img {
     margin-bottom: -2px;
 }
 
-
-
-
-
-
-
-
-
-
-h2 {
-    font-size: 18px;
+main.blog article {
+    margin: 0 auto;
+    padding-bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 main.blog div.post {
     border-radius: 8px;
     border: solid 1px #C0C0C0;
-    margin: 8px;
+    margin: 0 0 15px 0;
     overflow: hidden;
 }
 
@@ -138,33 +131,76 @@ main.blog div.post section.header {
     height: 159px;
 }
 main.blog div.post section.body {
-    padding: 5px;
+    padding: 15px;
+}
+main.blog div.post section.description {
+    font-size: 16px;
+    line-height: 24px;
+    min-height: 72px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
-main.blog div.post h2, main.blog div.post section.description, main.blog div.post section.action {
-    margin: 15px;
+main.blog div.post section.action {
+    margin: 15px 0 5px 0;
+    font-size: 14px;
+    line-height: 16.8px;
 }
 
 footer {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 footer article {
     margin: 0 auto;
+    padding: 12px 24px;
 }
 
-.bgcFFC800 {
-    background-color: #FFC800;
+footer article.social-media a {
+    margin: 0 18px;
 }
 
-.bgc2E68C0 {
-    background-color: #2E68C0;
+footer article.text p {
+    margin: 0;
 }
 
-.bgcEA1542 {
-    background-color: #EA1542;
+footer article.links a {
+    font-size: 11px;
+    line-height: 16.5px;
+    margin: 0 8px;
 }
 
-.bgc1D4ED8 {
-    background-color: #1D4ED8;
+footer article.links a:first-child {
+    margin-left: 0;
 }
+
+footer article.links a:last-child {
+    margin-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
