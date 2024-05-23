@@ -1,5 +1,5 @@
 @import url(colors.css);
-@import url(320.css);
+@import url(0.css);
 @import url(480.css);
 @import url(768.css);
 @import url(992.css);
@@ -15,26 +15,18 @@ body * {
     font-weight: 400;
     font-style: normal;
     font-variation-settings: "slnt" 0;
-    font-size: 14px;
-    line-height: 21px;
     color: #4B4B4B;
 }
 
 h1 {
     font-weight: 600;
-    font-size: 22px;
-    line-height: 28.6px;
     color: #252323;
     text-align: center;
-    margin: 0 0 20px 0;
 }
 
 h2 {
     font-weight: 600;
-    font-size: 18px;
-    line-height: 23.4px;
     color: #252323;
-    margin: 0 0 10px 0;
 }
 
 a {
@@ -54,7 +46,6 @@ footer {
 
 header article {
     margin: 0 auto;
-    padding: 10px 0;
     color: #4B4B4B;
 }
 
@@ -80,15 +71,11 @@ main.hello {
 main article figure {
     display: block;
     margin: 15px 0;
-    width: 272px;
-    height: 206px;
     overflow: hidden;
     border-radius: 8px;
 }
 
 main article figure img {
-    height: 100%;
-    margin: 0 -100%;
 }
 
 input, button {
@@ -100,7 +87,6 @@ input, button {
 input {
     padding: 0 20px;
     border: solid 1px #C0C0C0;
-    width: 230px;
 }
 
 button.submit {
@@ -108,7 +94,6 @@ button.submit {
     border: solid 1px #3366FF;
     color: #fff;
     vertical-align: center;
-    width: 270px;
 }
 
 button.submit img {
@@ -123,7 +108,6 @@ main.blog article {
 main.blog div.post {
     border-radius: 8px;
     border: solid 1px #C0C0C0;
-    margin: 0 0 15px 0;
     overflow: hidden;
 }
 
@@ -134,9 +118,6 @@ main.blog div.post section.body {
     padding: 15px;
 }
 main.blog div.post section.description {
-    font-size: 16px;
-    line-height: 24px;
-    min-height: 72px;
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -151,7 +132,6 @@ main.blog div.post section.action {
 
 footer {
     text-align: center;
-    padding-bottom: 10px;
 }
 
 footer article {
@@ -168,8 +148,6 @@ footer article.text p {
 }
 
 footer article.links a {
-    font-size: 11px;
-    line-height: 16.5px;
     margin: 0 8px;
 }
 
@@ -180,27 +158,3 @@ footer article.links a:first-child {
 footer article.links a:last-child {
     margin-right: 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

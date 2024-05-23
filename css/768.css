@@ -1,5 +1,53 @@
 @media (min-width: 768px) {
-    /*header article, main article, footer article {*/
-    /*    max-width: 640px;*/
-    /*}*/
+    body * {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    h1 {
+        font-size: 26px;
+        line-height: 33.8px;
+        margin: 0 0 20px 0;
+    }
+
+    header article, main article, footer article {
+        max-width: 640px;
+    }
+
+    header article {
+        padding: 14px 0 10px 0;
+    }
+
+    main article figure {
+        margin: 15px 0;
+        width: 640px;
+        height: 293px;
+    }
+
+    main article figure img {
+        width: 100%;
+        height: fit-content;
+        margin-top: -35px;
+    }
+
+    input {
+        padding: 0 20px;
+        width: 282px;
+    }
+
+    button.submit {
+        width: 98px;
+    }
+
+    main.blog div.post {
+        display: inline-block;
+        margin: 0 2px 5px 0;
+        width: 312px;
+    }
+
+    footer article.links a {
+        font-size: 13px;
+        line-height: 19.5px;
+        margin: 0 8px;
+    }
 }
