@@ -1,0 +1,170 @@
+@import url(320.css);
+@import url(480.css);
+@import url(768.css);
+@import url(992.css);
+@import url(1200.css);
+
+body {
+    margin: 0;
+}
+
+body * {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4B4B4B;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28.6px;
+    color: #252323;
+    text-align: center;
+}
+
+a {
+    color: #3366FF;
+    text-decoration: none;
+}
+
+header,
+main,
+footer {
+    min-width: 320px;
+}
+
+header article {
+    margin: 0 auto;
+    padding: 10px 0;
+    color: #4B4B4B;
+}
+
+header article figure {
+    text-align: center;
+}
+
+header article.header-logo img {
+    width: 144px;
+    height: 40px;
+}
+
+main article {
+    margin: 0 auto;
+    padding: 24px;
+}
+
+main.hello {
+    background-color: #EEF0F2;
+    text-align: center;
+}
+
+main article figure {
+    display: block;
+    margin: 15px 0;
+    width: 272px;
+    height: 206px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+main article figure img {
+    height: 100%;
+    margin: 0 -100%;
+}
+
+input, button {
+    border-radius: 8px;
+    height: 45px;
+    margin: 5px 0;
+}
+
+input {
+    padding: 0 20px;
+    border: solid 1px #C0C0C0;
+    width: 230px;
+}
+
+button.submit {
+    background-color: #3366FF;
+    border: solid 1px #3366FF;
+    color: #fff;
+    vertical-align: center;
+    width: 270px;
+}
+
+button.submit img {
+    margin-bottom: -2px;
+}
+
+
+
+
+
+
+
+
+
+
+h2 {
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main.blog div.post {
+    border-radius: 8px;
+    border: solid 1px #C0C0C0;
+    margin: 8px;
+    overflow: hidden;
+}
+
+main.blog div.post section.header {
+    height: 159px;
+}
+main.blog div.post section.body {
+    padding: 5px;
+}
+
+main.blog div.post h2, main.blog div.post section.description, main.blog div.post section.action {
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+}
+
+footer article {
+    margin: 0 auto;
+}
+
+.bgcFFC800 {
+    background-color: #FFC800;
+}
+
+.bgc2E68C0 {
+    background-color: #2E68C0;
+}
+
+.bgcEA1542 {
+    background-color: #EA1542;
+}
+
+.bgc1D4ED8 {
+    background-color: #1D4ED8;
+}

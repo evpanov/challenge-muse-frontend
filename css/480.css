@@ -1,0 +1,11 @@
+@media (min-width: 480px) {
+    header article, main article, footer article {
+        max-width: 460px;
+    }
+    main.blog div.post {
+        margin: 8px;
+    }
+    input, button {
+        display: inline;
+    }
+}
